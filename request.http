@@ -1,3 +1,19 @@
 GET http://localhost:3000/app/test
 ###
-GET http://3000/app/
+GET http://localhost:3000/app/
+POST http://localhost:3000/user
+
+content-type: application/json
+
+{
+    name: "Fernando Kitakawa",
+    email: "ferk750@gmail.com",
+    password: "12345678"
+}
+
+//content-type: application/json
+
+//{
+  //  "name": "sample",
+    //"time": "Wed, 21 Oct 2015 18:27:50 GMT"
+//}
